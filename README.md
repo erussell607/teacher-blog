@@ -6,9 +6,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Deploying via GitHub
+## Deploying via GitHub (SUCCESS)
 
-Run `ng build --prod --base-href "teacher-blog"` followed by this command `ngh --dir dist/teacher-blog`
+Run `ng build --prod --base-href https://erussell607.github.io/teacher-blog/` followed by this command `ngh --dir dist/teacher-blog --message="github deployment" -no-silent`
+
+## Deploying via GitHub (FAILED)
+
+Run `ng build --prod --base-href "teacher-blog"` followed by this command `ngh --dir dist/teacher-blog --message="github deployment"`
 
 ## Code scaffolding
 
