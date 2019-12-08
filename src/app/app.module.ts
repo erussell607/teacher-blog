@@ -7,12 +7,14 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSliderModule} from '@angular/material/slider';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { FiveEComponent } from './five-e/five-e.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FiveEComponent
   ],
   imports: [
     BrowserModule,
