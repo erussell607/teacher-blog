@@ -8,19 +8,27 @@ import {MatSliderModule} from '@angular/material/slider';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { FiveEComponent } from './five-e/five-e.component';
+import {MatIconModule} from '@angular/material';
+import { AboutComponent } from './about/about.component';
+import { MadelineHunterComponent } from './madeline-hunter/madeline-hunter.component';
+import { IdmComponent } from './idm/idm.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    FiveEComponent
+    FiveEComponent,
+    AboutComponent,
+    MadelineHunterComponent,
+    IdmComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatSliderModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
